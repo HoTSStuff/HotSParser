@@ -9,5 +9,3 @@ home_app = Bottle()
 @jinja2_view('index.html')
 def index():
     return {'get_url': home_app.get_url}
-
-
