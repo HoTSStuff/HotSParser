@@ -1,6 +1,8 @@
 coverage
+fake-factory
 flake8
 flake8_docstrings
 pep257
 pep8
 pylint
+tox

@@ -1,1 +1,7 @@
+beaker
 bottle
+bottle-sqlalchemy
+click
+faker
+jinja2
+sqlalchemy
