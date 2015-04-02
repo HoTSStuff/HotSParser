@@ -1,0 +1,3 @@
+# HotSParser
+
+Parse HotS replays
