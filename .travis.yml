@@ -1,10 +1,15 @@
 language: python
-
+python:
+  - 2.7
 before_install:
-  - time pip install pep8
+  - time pip install -r requirements/testing.txt
 
 script:
-  - pep8 --ignore E201,E202 --max-line-length=120 --exclude='migrations' .
+  - pep8 hotsparser
+  - pylint hotsparser
+  - flake8 hotsparser
+
+sudo: false
 
 notifications:
   email:
